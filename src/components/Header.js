@@ -82,7 +82,7 @@ const Header = () => {
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
-          p={[2, 4, 6]}
+          p={{base: 2, sm:8, md:4 }}
           justifyContent="space-between"
           alignItems="center"
         >
